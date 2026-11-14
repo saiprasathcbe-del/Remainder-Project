@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>EMAIL REMAINDER</title>
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header>
+        <h1>SMART EMAIL REMAINDER</h1>
+        <p>Never miss the important task!!</p>
+    </header>
+
+    <div class="container">
+
+        <form id="reminderForm">
+
+            <label>EMAIL ADDRESS</label>
+            <input type="email" id="email"
+            placeholder="Enter your email address" required>
+
+            <br>
+
+            <label>REMINDER MESSAGE</label>
+            <input type="text" id="message"
+            placeholder="Enter your task" required>
+
+            <br>
+
+            <label>REMINDER DATE</label>
+            <input type="date" id="date" required>
+
+            <br>
+
+            <label>REMINDER TIME</label>
+            <input type="time" id="time" required>
+
+            <br>
+
+            <button type="submit">
+                SCHEDULE REMINDER
+            </button>
+
+        </form>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
