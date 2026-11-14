@@ -1,0 +1,46 @@
+.container{
+    width: 90%;
+    padding: 40px;
+    margin: auto;
+}
+body{
+    background-color: black;
+    color:white;
+    font-family: Arial, sans-serif;
+}
+label{
+    color: white;
+    font-weight: bold;
+    justify-self:start;
+}
+form{
+    width:85%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    background-color:rgb(83, 0, 216);
+    border-radius: 5px;
+    width: 85%;
+    justify-self: center;
+}
+button{
+    background-color: white;
+    color: rgb(83, 0, 216);
+    border-radius: 6px;
+    width: 100%;
+    padding: 12px;
+    font-weight: 900;
+    justify-self: center;
+    width: 75%;
+}
+input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    width: 85%;
+    justify-self: center;
+
+}
+header{
+    text-align: center;
+}
